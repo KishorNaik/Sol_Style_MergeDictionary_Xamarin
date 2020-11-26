@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:styles="clr-namespace:Sol_Demo.Styles"
+             x:Class="Sol_Demo.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <!--Using Hard Code Set Source-->
+                <ResourceDictionary Source="Styles/BaseStyle.xaml"></ResourceDictionary>
+                <ResourceDictionary Source="Styles/LableStyle.xaml"></ResourceDictionary>
+                <!--Using Style Object-->
+                <styles:ButtonStyle></styles:ButtonStyle>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
